@@ -19,7 +19,7 @@ public class MailActivity extends Activity {
         send.setOnClickListener(new View.OnClickListener() { 
         	
             public void onClick(View view) { 
-            GMailSender sender = new GMailSender("icaruswings77@gmail.com","snowball77"); // SUBSTITUTE HERE                   
+            GMailSender sender = new GMailSender("icaruswings77@gmail.com","pass"); // SUBSTITUTE HERE                   
                 try { 
                     sender.sendMail( 
                             "메일제목 !!",   					//subject.getText().toString(),  
