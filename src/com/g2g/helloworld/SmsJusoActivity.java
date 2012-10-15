@@ -82,13 +82,13 @@ package com.g2g.helloworld;
 				break;
 			}
 		}
-		/*
+		
 		@Override
 	    public boolean onCreateOptionsMenu(Menu menu) {
 	        getMenuInflater().inflate(R.menu.a, menu);
 	        return true;
 	    }
-	    */		
+	    
 
 	}
 
