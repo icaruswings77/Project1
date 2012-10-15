@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TableRow>
+    	<TextView        
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="받는사람" />
+
+    	<EditText
+    	    android:id="@+id/receiver"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"/>
+      	    			    
+    </TableRow>
+    
+
+	<TableRow>
+    	<TextView        
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="메세지" />
+
+    	<EditText
+	        android:id="@+id/message"
+        	android:layout_width="200px"
+        	android:layout_height="wrap_content" />
+      	    			    
+    </TableRow>
+	<TableRow>
+    	<Button
+	        android:id="@+id/btnSmsJuso"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_span="2"
+        	android:text="전화번호 조회" />
+    	</TableRow>
+	<TableRow>
+    	<Button
+	        android:id="@+id/btnMailSend"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_span="2"
+        	android:text="메일로 보내기" />
+    	</TableRow>    	
+	
+	<TableRow>
+    	<Button
+	        android:id="@+id/btnSmsSend"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_span="2"
+        	android:text="메세지 전송" />
+    </TableRow>	
+
+</TableLayout>
