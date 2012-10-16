@@ -8,6 +8,7 @@ package com.g2g.helloworld;
 	import android.view.*;
 	import android.widget.*;
 
+	// git Å×½ºÆ®
 	public class SmsJusoActivity extends Activity {
 		JusoDBHelper mHelper;
 		EditText mText;
@@ -82,13 +83,13 @@ package com.g2g.helloworld;
 				break;
 			}
 		}
-		
+		/*
 		@Override
 	    public boolean onCreateOptionsMenu(Menu menu) {
 	        getMenuInflater().inflate(R.menu.a, menu);
 	        return true;
 	    }
-	    
+	    */		
 
 	}
 
