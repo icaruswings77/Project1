@@ -31,6 +31,10 @@
         <activity
             android:name=".MailActivity"
             android:label="@string/title_activity_mail" >
+        </activity>
+        <activity
+            android:name=".MailActivity2"
+            android:label="@string/title_activity_mail2" >
         </activity>                
     </application>
     

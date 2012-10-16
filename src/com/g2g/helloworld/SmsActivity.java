@@ -25,7 +25,7 @@ public class SmsActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sms);
-         
+        
         receiver = (EditText) findViewById(R.id.receiver);
         message = (EditText) findViewById(R.id.message);
         
@@ -69,8 +69,7 @@ public class SmsActivity extends Activity {
 
 			}
 		});		
-				
-        		
+  		
     }
 
     @Override

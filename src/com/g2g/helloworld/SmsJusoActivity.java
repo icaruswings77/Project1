@@ -15,7 +15,6 @@ package com.g2g.helloworld;
 		public void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.activity_sms_juso);
-			//setContentView(R.layout.activity_sms);
 
 			mHelper = new JusoDBHelper(this);
 			mText = (EditText)findViewById(R.id.edittext);

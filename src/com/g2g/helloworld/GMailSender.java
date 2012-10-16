@@ -1,21 +1,22 @@
 ////    GMailSender.class 
 package com.g2g.helloworld;
   
-import java.io.ByteArrayInputStream; 
-import java.io.IOException; 
-import java.io.InputStream; 
-import java.io.OutputStream; 
-import java.security.Security; 
-import java.util.Properties; 
- 
-import javax.activation.DataHandler; 
-import javax.activation.DataSource; 
-import javax.mail.Message; 
-import javax.mail.PasswordAuthentication; 
-import javax.mail.Session; 
-import javax.mail.Transport; 
-import javax.mail.internet.InternetAddress;
+import java.io.ByteArrayInputStream;  
+import java.io.IOException;  
+import java.io.InputStream;  
+import java.io.OutputStream;  
+import java.security.Security;  
+import java.util.Properties;  
+  
+import javax.activation.DataHandler;  
+import javax.activation.DataSource;  
+import javax.mail.Message;  
+import javax.mail.PasswordAuthentication;  
+import javax.mail.Session;  
+import javax.mail.Transport;  
+import javax.mail.internet.InternetAddress;  
 import javax.mail.internet.MimeMessage;  
+
 
 public class GMailSender extends javax.mail.Authenticator { 
     private String mailhost = "smtp.gmail.com"; 
@@ -33,8 +34,7 @@ public class GMailSender extends javax.mail.Authenticator {
         props.put("mail.smtp.auth", "true");  
         props.put("mail.smtp.port", "465");  
         props.put("mail.smtp.socketFactory.port", "465");  
-        props.put("mail.smtp.socketFactory.class",  
-                "javax.net.ssl.SSLSocketFactory");  
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");  
         props.put("mail.smtp.socketFactory.fallback", "false");  
         props.setProperty("mail.smtp.quitwait", "false");  
  

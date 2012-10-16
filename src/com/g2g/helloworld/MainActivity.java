@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 		
 		/*
 		 * 토스트 메세지 예제
-		 */		
+
 		button1 = (Button) findViewById(R.id.button02);
 
 		button1.setOnClickListener(new OnClickListener() {
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 				toast.show();
 			}
 		});
-/*		
+		 */				
 		
 		button1 = (Button) findViewById(R.id.button02);
 
@@ -56,12 +56,13 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(MainActivity.this, SmsJusoActivity.class);
+				//Intent intent = new Intent(MainActivity.this, SmsJusoActivity.class);
+				Intent intent = new Intent(MainActivity.this, MailActivity.class);
 				startActivity(intent);
 
 			}
 		});
-*/		
+
 		
 		button2 = (Button) findViewById(R.id.button03);
 
@@ -69,7 +70,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(MainActivity.this, MailActivity.class);
+				Intent intent = new Intent(MainActivity.this, MailActivity2.class);
 				startActivity(intent);
 
 			}
