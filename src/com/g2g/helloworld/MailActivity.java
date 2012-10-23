@@ -37,6 +37,7 @@ public class MailActivity extends Activity {
     private String password; 
     private Session session; 	
 	
+    
     @Override 
     public void onCreate(Bundle icicle) { 
         super.onCreate(icicle); 
